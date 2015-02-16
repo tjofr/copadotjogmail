@@ -329,7 +329,7 @@
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>Contact_must_be_in_Account_ZIP_Code</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>NOT(ISBLANK( AccountId )) &amp;&amp; ( MailingPostalCode &lt;&gt;  Account.ShippingPostalCode )</errorConditionFormula>
         <errorDisplayField>MailingPostalCode</errorDisplayField>
         <errorMessage>If specified, the contact Mailing Zip Code should be the same as the Account Shipping Code.</errorMessage>
